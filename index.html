@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="個人開発者のポートフォリオサイト - 私の作品と経歴をご紹介します">
+    <meta name="keywords" content="ポートフォリオ, 開発者, プログラミング, Web開発">
+    <meta name="author" content="KJ">
+    <title>KJ - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <h1 class="logo">KJ</h1>
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-title">こんにちは、私はKJです</h2>
+                    <p class="hero-subtitle">フルスタック開発者として、革新的なWebアプリケーションを作成しています</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">作品を見る</a>
+                        <a href="#contact" class="btn btn-secondary">お問い合わせ</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/profile.jpg" alt="プロフィール写真" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            私は情熱的なフルスタック開発者として、モダンなWebテクノロジーを使用して
+                            ユーザーフレンドリーなアプリケーションを開発しています。
+                        </p>
+                        <p>
+                            常に新しい技術を学び、問題解決に創造的なアプローチを取ることを心がけています。
+                            チームワークを大切にし、品質の高いコードを書くことに情熱を注いでいます。
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <h3>5+</h3>
+                                <p>プロジェクト完了</p>
+                            </div>
+                            <div class="stat">
+                                <h3>2+</h3>
+                                <p>開発経験年数</p>
+                            </div>
+                            <div class="stat">
+                                <h3>10+</h3>
+                                <p>使用技術</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project1.jpg" alt="プロジェクト1">
+                        </div>
+                        <div class="project-content">
+                            <h3>Webアプリケーション</h3>
+                            <p>React.jsとNode.jsを使用したフルスタックWebアプリケーション</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">デモ</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project2.jpg" alt="プロジェクト2">
+                        </div>
+                        <div class="project-content">
+                            <h3>モバイルアプリ</h3>
+                            <p>React Nativeで開発したクロスプラットフォームモバイルアプリ</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">TypeScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">デモ</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project3.jpg" alt="プロジェクト3">
+                        </div>
+                        <div class="project-content">
+                            <h3>データ分析ツール</h3>
+                            <p>Pythonを使用したデータ可視化・分析ツール</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">Django</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">デモ</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>フロントエンド</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript/TypeScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">React.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="95"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>バックエンド</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">データベース</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>ツール・その他</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">Git/GitHub</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Docker</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="65"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">AWS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="60"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>お気軽にお問い合わせください</h3>
+                        <p>新しいプロジェクトや協力の機会について、ぜひご連絡ください。</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="icon">📧</i>
+                                <span>your.email@example.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="icon">📱</i>
+                                <span>+81-90-xxxx-xxxx</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="icon">📍</i>
+                                <span>東京, 日本</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link">GitHub</a>
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">お名前</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">メールアドレス</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">メッセージ</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">送信</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 KJ. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
