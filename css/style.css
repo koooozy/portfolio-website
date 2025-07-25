@@ -77,23 +77,28 @@ body {
 
 /* ヒーローセクション */
 .hero {
-    min-height: 60vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #14b8a6 0%, #0891b2 100%);
     color: white;
-    padding-top: 80px;
-    padding-bottom: 40px;
+    padding: 6rem 2rem 4rem;
+    position: relative;
 }
 
 .hero-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    gap: 4rem;
     align-items: center;
+    justify-items: center;
     width: 100%;
     max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2rem;
+    box-sizing: border-box;
 }
 
 .hero-title {
@@ -155,6 +160,9 @@ body {
 .hero-image {
     text-align: center;
     animation: fadeInUp 1s ease 0.6s both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-img {
@@ -499,9 +507,12 @@ section {
     }
     
     .hero-content {
-        gap: 2rem;
+        gap: 3rem;
         justify-items: center;
         align-items: center;
+        justify-content: center;
+        padding: 0 1.5rem;
+        max-width: 1000px;
     }
     
     .about-stats {
@@ -577,16 +588,19 @@ section {
     }
     
     .hero {
-        padding-top: 100px;
-        min-height: 60vh;
+        min-height: 75vh;
+        padding: 5rem 1rem 3rem;
     }
     
     .hero-content {
         grid-template-columns: 1fr;
         text-align: center;
-        gap: 2rem;
+        gap: 3rem;
         justify-items: center;
         align-items: center;
+        justify-content: center;
+        padding: 0 1rem;
+        max-width: 600px;
     }
     
     .hero-title {
@@ -669,14 +683,17 @@ section {
     }
     
     .hero {
-        padding-top: 90px;
-        min-height: 50vh;
+        min-height: 70vh;
+        padding: 4rem 1rem 2rem;
     }
     
     .hero-content {
-        gap: 1.5rem;
+        gap: 2rem;
         justify-items: center;
         align-items: center;
+        justify-content: center;
+        padding: 0 0.5rem;
+        max-width: 500px;
     }
     
     .hero-title {
