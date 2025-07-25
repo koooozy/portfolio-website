@@ -354,7 +354,7 @@ window.addEventListener('load', () => {
         left: 0;
         width: 100%;
         height: 100%;
-        background: #667eea;
+        background: linear-gradient(135deg, #14b8a6 0%, #0891b2 100%);
         display: flex;
         justify-content: center;
         align-items: center;

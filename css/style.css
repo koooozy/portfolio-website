@@ -41,7 +41,7 @@ body {
 .logo {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #2563eb;
+    color: #0891b2;
 }
 
 .nav-menu {
@@ -58,7 +58,7 @@ body {
 }
 
 .nav-menu a:hover {
-    color: #2563eb;
+    color: #0891b2;
 }
 
 .hamburger {
@@ -77,21 +77,21 @@ body {
 
 /* ヒーローセクション */
 .hero {
-    min-height: 70vh;
+    min-height: 60vh;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #14b8a6 0%, #0891b2 100%);
     color: white;
-    padding-top: 120px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .hero-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     max-width: 1200px;
 }
@@ -126,13 +126,19 @@ body {
 }
 
 .btn-primary {
-    background: #2563eb;
-    color: white;
+    background: linear-gradient(135deg, #ffffff, #f0fdfa);
+    color: #0f766e;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+    font-weight: 600;
 }
 
 .btn-primary:hover {
-    background: #1d4ed8;
+    background: linear-gradient(135deg, #0d9488, #0e7490);
+    color: white;
     transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(13, 148, 136, 0.4);
+    border-color: rgba(13, 148, 136, 0.8);
 }
 
 .btn-secondary {
@@ -143,7 +149,7 @@ body {
 
 .btn-secondary:hover {
     background: white;
-    color: #2563eb;
+    color: #0891b2;
 }
 
 .hero-image {
@@ -185,7 +191,7 @@ section {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background: #2563eb;
+    background: linear-gradient(135deg, #14b8a6, #0891b2);
     border-radius: 2px;
 }
 
@@ -228,7 +234,7 @@ section {
 
 .stat h3 {
     font-size: 2.5rem;
-    color: #2563eb;
+    color: #0891b2;
     margin-bottom: 0.5rem;
 }
 
@@ -296,12 +302,13 @@ section {
 }
 
 .tech-tag {
-    background: #e0e7ff;
-    color: #3730a3;
+    background: linear-gradient(135deg, #a7f3d0, #67e8f9);
+    color: #0f766e;
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
     font-size: 0.8rem;
     font-weight: 500;
+    border: 1px solid rgba(20, 184, 166, 0.2);
 }
 
 .project-links {
@@ -310,14 +317,16 @@ section {
 }
 
 .project-link {
-    color: #2563eb;
+    color: #0891b2;
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
 }
 
 .project-link:hover {
-    color: #1d4ed8;
+    color: #0f766e;
+    border-bottom-color: #14b8a6;
 }
 
 /* スキルセクション */
@@ -365,10 +374,11 @@ section {
 
 .skill-progress {
     height: 100%;
-    background: linear-gradient(90deg, #2563eb, #3b82f6);
+    background: linear-gradient(90deg, #14b8a6, #06b6d4, #0891b2);
     border-radius: 4px;
     transition: width 1.5s ease;
     width: 0;
+    box-shadow: 0 2px 8px rgba(20, 184, 166, 0.3);
 }
 
 /* コンタクトセクション */
@@ -411,14 +421,19 @@ section {
 }
 
 .social-link {
-    color: #2563eb;
+    color: #0891b2;
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 2px solid transparent;
 }
 
 .social-link:hover {
-    color: #1d4ed8;
+    color: #0f766e;
+    border-color: #14b8a6;
+    background: rgba(20, 184, 166, 0.1);
 }
 
 .contact-form {
@@ -451,7 +466,8 @@ section {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #2563eb;
+    border-color: #14b8a6;
+    box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1);
 }
 
 /* フッター */
@@ -485,7 +501,7 @@ section {
     .hero-content {
         gap: 2rem;
         justify-items: center;
-        align-items: flex-start;
+        align-items: center;
     }
     
     .about-stats {
@@ -556,21 +572,21 @@ section {
     }
     
     .nav-menu a:hover {
-        background: rgba(37, 99, 235, 0.1);
-        color: #2563eb;
+        background: rgba(20, 184, 166, 0.1);
+        color: #0891b2;
     }
     
     .hero {
-        padding-top: 140px;
-        min-height: 70vh;
+        padding-top: 100px;
+        min-height: 60vh;
     }
     
     .hero-content {
         grid-template-columns: 1fr;
         text-align: center;
-        gap: 3rem;
+        gap: 2rem;
         justify-items: center;
-        align-items: flex-start;
+        align-items: center;
     }
     
     .hero-title {
@@ -653,14 +669,14 @@ section {
     }
     
     .hero {
-        padding-top: 120px;
-        min-height: 60vh;
+        padding-top: 90px;
+        min-height: 50vh;
     }
     
     .hero-content {
-        gap: 2rem;
+        gap: 1.5rem;
         justify-items: center;
-        align-items: flex-start;
+        align-items: center;
     }
     
     .hero-title {
