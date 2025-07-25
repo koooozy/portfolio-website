@@ -77,14 +77,14 @@ body {
 
 /* ヒーローセクション */
 .hero {
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     padding-top: 120px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 .hero-content {
@@ -562,7 +562,7 @@ section {
     
     .hero {
         padding-top: 140px;
-        min-height: 100vh;
+        min-height: 70vh;
     }
     
     .hero-content {
@@ -654,7 +654,7 @@ section {
     
     .hero {
         padding-top: 120px;
-        min-height: 90vh;
+        min-height: 60vh;
     }
     
     .hero-content {
